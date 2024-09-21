@@ -6,40 +6,117 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
-    ],
     "/global-error": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/global-error.js"
+    ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
     ],
     "/(admin)/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(admin)/layout.js"
     ],
+    "/(admin)/companies/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(admin)/companies/layout.js"
+    ],
+    "/(admin)/companies/@modal/default": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(admin)/companies/@modal/default.js"
+    ],
+    "/(admin)/companies/new/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(admin)/companies/new/page.js"
+    ],
+    "/(admin)/companies/@header/new/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(admin)/companies/@header/new/page.js"
+    ],
+    "/(admin)/companies/@toolbar/new/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(admin)/companies/@toolbar/new/page.js"
+    ],
+    "/(admin)/companies/@toolbar/default": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(admin)/companies/@toolbar/default.js"
+    ],
+    "/(admin)/companies/@modal/(.)new/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(admin)/companies/@modal/(.)new/page.js"
+    ],
     "/(admin)/companies/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(admin)/companies/page.js"
     ],
-    "/(admin)/companies/[id]/page": [
+    "/(admin)/companies/@header/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(admin)/companies/[id]/page.js"
+      "static/chunks/app/(admin)/companies/@header/page.js"
     ],
-    "/(admin)/companies/[id]/not-found": [
+    "/(admin)/companies/@toolbar/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(admin)/companies/[id]/not-found.js"
+      "static/chunks/app/(admin)/companies/@toolbar/page.js"
     ],
-    "/not-found": [
+    "/(admin)/companies/@modal/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
+      "static/chunks/app/(admin)/companies/@modal/page.js"
+    ],
+    "/(admin)/dashboard/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(admin)/dashboard/page.js"
+    ],
+    "/(admin)/dashboard/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(admin)/dashboard/layout.js"
+    ],
+    "/(admin)/dashboard/error": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(admin)/dashboard/error.js"
+    ],
+    "/(admin)/dashboard/@categories/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(admin)/dashboard/@categories/page.css",
+      "static/chunks/app/(admin)/dashboard/@categories/page.js"
+    ],
+    "/(admin)/dashboard/@countries/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(admin)/dashboard/@countries/page.js"
+    ],
+    "/(admin)/dashboard/@sales/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(admin)/dashboard/@sales/page.js"
+    ],
+    "/(admin)/dashboard/@promotions/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(admin)/dashboard/@promotions/page.js"
+    ],
+    "/(admin)/dashboard/@stats/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(admin)/dashboard/@stats/page.css",
+      "static/chunks/app/(admin)/dashboard/@stats/page.js"
     ]
   }
 }
